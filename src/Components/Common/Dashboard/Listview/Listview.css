@@ -1,0 +1,52 @@
+
+
+.listbox{
+    display: flex;
+    gap:1rem;
+    justify-content: space-between;
+   margin: auto;
+   width: 100%; 
+}
+.table-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 2rem;
+   
+}
+.table-flex:hover{
+    background-color: var(--darkgray);
+transition: all 0.3s;
+}
+.coin-img{
+    height:42px;
+}
+.table-flex td{
+    text-align: left;
+    width: 18%;
+}
+.right-align{
+    text-align: right;
+    display: flex;
+    align-items: center;
+    gap:0.3rem;
+}
+.center-align{
+    text-align: center !important;
+}
+.price_change{
+    display: flex;
+}
+
+.star-icon-list{
+    padding: 0.4rem 0.4rem;
+    border-radius: 3rem;
+    /* width: 1.5rem; */
+    display: flex !important;
+    align-items: center !important;
+}
+.price-convert{
+    display: none;
+    }

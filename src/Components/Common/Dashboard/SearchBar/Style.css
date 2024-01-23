@@ -1,0 +1,21 @@
+.search-input {
+ padding:0.1rem 1rem;
+  background: transparent;
+  border: none;
+  width: 100%;
+  color:var(--grey);
+  font-size: 20px;
+}
+.searchBox {
+  display: flex;
+  align-items: center;
+  background-color: var(--darkgray);
+  width: 70%;
+  margin: auto;
+  border-radius: 2rem;
+  padding: 0.7rem 1.5rem;
+  margin-top: 1rem;
+}
+.search-input:focus{
+    outline: none;
+}

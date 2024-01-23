@@ -1,0 +1,82 @@
+.coin-container {
+  padding: 0.3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.grey-wrapper {
+  background-color: var(--darkgray);
+  border-radius: 2rem;
+  margin-top: 1.5rem;
+}
+
+.graph-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  background-color: var(--darkgray);
+  border-radius: 2rem;
+  padding: 1.5rem 2rem;
+}
+
+.coinselection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.upper-margin {
+  margin-top: 2rem;
+}
+.wishlist-page {
+  min-height: 100vh;
+  display: flex;
+  margin-top: 1rem;
+  padding: 0rem 3rem;
+  flex-direction: column;
+}
+
+.wishlist-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wishlist-text{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.wishlist-text>p{
+  color:var(--grey);
+}
+.wishlist-img{
+  margin-top: 2rem;
+}
+.dashbord-btn{
+padding: 1rem 2rem;
+border-radius: 0.3rem;
+color:var(--darkgray);
+background-color: var(--white);
+transition: all 0.3s;
+font-weight: 700;
+}
+.dashbord-btn:hover{
+  color:var(--white);
+  background-color: var(--darkgray);
+}
+.wishlist-text{
+  text-align: center;
+}
+.custom-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: #f00; /* Replace with your cursor color */
+  border-radius: 50%;
+  pointer-events: none; /* Ensure the cursor does not interfere with interactions */
+  transition: transform 0.3s ease-out; /* Add a transition effect */
+}

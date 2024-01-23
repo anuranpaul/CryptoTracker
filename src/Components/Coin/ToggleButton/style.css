@@ -1,0 +1,8 @@
+.toogle-graph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.css-ueukts-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
+    color: "#3a88e9",
+}

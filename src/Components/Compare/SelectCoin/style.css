@@ -1,0 +1,10 @@
+  .coin-selection-flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:1rem;
+  }
+  .selectBox{
+    display: flex;
+    gap:1rem;
+  }

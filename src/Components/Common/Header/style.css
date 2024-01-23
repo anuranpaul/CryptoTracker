@@ -1,0 +1,103 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 3rem;
+  position: sticky;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: transparent !important;
+  transition: backdrop-filter 0.3s ease;
+}
+nav.scrolled {
+  backdrop-filter: blur(5px);
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.5rem;
+}
+.Link {
+  color: var(--grey);
+  font-weight: 600;
+  font-size: 1rem;
+}
+.Link:hover {
+  color: var(--white);
+  transition: all 0.3s;
+}
+.drawer-Link{
+  color: var(--white);
+  font-weight: 600;
+  font-size: 3rem;
+}
+.drawer-Link:hover{
+  color: var(--grey);
+  transition: all 0.3s;
+}
+.logo {
+  font-size: 2rem;
+  border: 2px solid transparent;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  animation: borderAnimation 2s infinite linear;
+}
+
+
+
+.drawer-menu {
+  display: none;
+}
+.drawer-links {
+  background-color: var(--black);
+  min-height: 100vh;
+  color: var(--white);
+  height: 100%;
+  padding-left: 0rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  font-size: xx-large;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+}
+.MuiDrawer-paperAnchorRight{
+  width: 50% !important;
+  min-width: 300px;
+  background-color: var(--black) !important;
+  color: var(--white) !important;
+}
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper{
+  background-color: var(--black) !important;
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition effect */
+  transform: translateX(-100%);
+  border-bottom-left-radius: 200px;
+}
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper.open{
+  transform: translateX(0);
+
+ 
+}
+@media only screen and (max-width: 800px) {
+  .header {
+    padding: 1.5rem;
+  }
+  .logo {
+    font-size: 1.4rem;
+  }
+  .links {
+    display: none;
+  }
+  .Link {
+    padding: 0.4rem;
+
+    font-size: 0.8rem;
+  }
+  .drawer-menu {
+    display: block;
+  }
+}

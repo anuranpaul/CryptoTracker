@@ -1,0 +1,114 @@
+.gridbox{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    background-color: var(--darkgray);
+    padding:1.4rem;
+    border-radius: 1rem;
+    gap:2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    border:0.1px solid var(--darkgray);
+}
+
+.incBorder:hover{
+    border:0.1px solid var(--green);
+    scale:calc(1.01)
+}
+.decBorder:hover{
+    border:0.1px solid var(--red);
+    scale:calc(1.01)
+}
+.heading{
+    display: flex;
+    gap:0.8rem;
+}
+.heading>img{
+    height:42px;
+}
+.card-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coinname h1{
+text-transform: uppercase;
+font-size: 20px;
+}
+.coinname p{
+    color:var(--grey)
+}
+.coin-increment{
+    border: 0.1rem solid var(--green);
+    color:var(--green);
+    padding: 0.2rem 0.7rem;
+    min-width: 3rem;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coin-decrement:hover{
+    background: var(--red);
+    color:var(--white);
+}
+.coin-increment:hover{
+    background: var(--green);
+    color:var(--white);
+}
+.coin-decrement{
+    border: 0.1rem solid var(--red);
+    color:var(--red);
+    padding: 0.2rem 0.7rem;
+    min-width: 3rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+}
+.change_percent{
+    display: flex;
+    gap:1rem;
+}
+.star-icon{
+    padding: 0.4rem 0.4rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.up-icon{
+    border: 0.1rem solid var(--green);
+    color:var(--green);
+    padding: 0.4rem 0.4rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+}
+.up-icon:hover{
+    background: var(--green);
+    color:var(--white) !important;
+}
+.down-icon{
+    border: 0.1rem solid var(--red);
+    color:var(--red);
+    padding: 0.4rem 0.4rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+}
+.down-icon:hover{
+    background: var(--red);
+    color:var(--white);
+}
+.currentPrice{
+  
+font-weight: 700;
+font-size: 18px;
+}
+.card-text{
+    color:var(--grey);
+    font-size: 14px;
+}
+
+
+
