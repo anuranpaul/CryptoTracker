@@ -45,8 +45,8 @@ const LandingPage = () => {
           <RWebShare
             data={{
               text: "Checkout my crypto tracker made using React!",
-              url: "https://CryptoVista.netlify.app",
-              title: "Crypto Tracker",
+              url: "https://trackx-y.vercel.app/",
+              title: "TrackX - A Cryptocurrency tracker",
             }}
             onClick={() => console.log("shared successfully!")}
           >
